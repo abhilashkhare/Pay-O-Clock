@@ -52,6 +52,17 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Reminder Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PFz-eF-h9L">
+                                <rect key="frame" x="67.5" y="204.5" width="240" height="24"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="TbP-kY-Dml"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="205" id="dOx-fU-NvQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" cocoaTouchSystemColor="lightTextColor"/>
@@ -64,7 +75,9 @@
                             <constraint firstItem="oQ4-uk-9zL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="guC-UA-iE0"/>
                             <constraint firstItem="oQ4-uk-9zL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nXO-8K-Heu"/>
                             <constraint firstItem="5Dk-Nt-HOj" firstAttribute="top" secondItem="Gue-bd-1u2" secondAttribute="bottom" constant="15" id="oHC-Sw-VXY"/>
+                            <constraint firstItem="PFz-eF-h9L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rSv-De-Hd3"/>
                             <constraint firstItem="TDl-xu-EVH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sJI-HV-186"/>
+                            <constraint firstItem="PFz-eF-h9L" firstAttribute="top" secondItem="TDl-xu-EVH" secondAttribute="bottom" constant="20" id="tbT-de-qw0"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
