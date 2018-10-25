@@ -42,10 +42,21 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="MM/DD/YYYY" textAlignment="center" minimumFontSize="17" clearButtonMode="unlessEditing" translatesAutoresizingMaskIntoConstraints="NO" id="TDl-xu-EVH">
+                                <rect key="frame" x="127.5" y="163.5" width="120" height="21"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="jsL-dA-Q7J"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" cocoaTouchSystemColor="lightTextColor"/>
                         <constraints>
+                            <constraint firstItem="TDl-xu-EVH" firstAttribute="top" secondItem="oQ4-uk-9zL" secondAttribute="bottom" constant="20" id="4HW-Cs-Od9"/>
                             <constraint firstItem="Gue-bd-1u2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6NK-LS-nYs"/>
                             <constraint firstItem="Gue-bd-1u2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="OS5-B0-G5R"/>
                             <constraint firstItem="5Dk-Nt-HOj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="X42-rc-jpt"/>
@@ -53,6 +64,7 @@
                             <constraint firstItem="oQ4-uk-9zL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="guC-UA-iE0"/>
                             <constraint firstItem="oQ4-uk-9zL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nXO-8K-Heu"/>
                             <constraint firstItem="5Dk-Nt-HOj" firstAttribute="top" secondItem="Gue-bd-1u2" secondAttribute="bottom" constant="15" id="oHC-Sw-VXY"/>
+                            <constraint firstItem="TDl-xu-EVH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sJI-HV-186"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
