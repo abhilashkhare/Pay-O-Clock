@@ -32,6 +32,16 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Reminder Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oQ4-uk-9zL">
+                                <rect key="frame" x="85" y="119.5" width="205" height="24"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="205" id="nX5-I9-mMB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" cocoaTouchSystemColor="lightTextColor"/>
@@ -39,6 +49,9 @@
                             <constraint firstItem="Gue-bd-1u2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6NK-LS-nYs"/>
                             <constraint firstItem="Gue-bd-1u2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="OS5-B0-G5R"/>
                             <constraint firstItem="5Dk-Nt-HOj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="X42-rc-jpt"/>
+                            <constraint firstItem="oQ4-uk-9zL" firstAttribute="top" secondItem="5Dk-Nt-HOj" secondAttribute="bottom" constant="20" id="bsm-gw-9nC"/>
+                            <constraint firstItem="oQ4-uk-9zL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="guC-UA-iE0"/>
+                            <constraint firstItem="oQ4-uk-9zL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nXO-8K-Heu"/>
                             <constraint firstItem="5Dk-Nt-HOj" firstAttribute="top" secondItem="Gue-bd-1u2" secondAttribute="bottom" constant="15" id="oHC-Sw-VXY"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
