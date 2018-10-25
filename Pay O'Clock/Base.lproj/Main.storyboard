@@ -63,6 +63,16 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="hh:mm" textAlignment="center" minimumFontSize="17" clearButtonMode="unlessEditing" translatesAutoresizingMaskIntoConstraints="NO" id="LCc-Po-IGS">
+                                <rect key="frame" x="147.5" y="248.5" width="80" height="21"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="xQs-Vr-gJr"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" cocoaTouchSystemColor="lightTextColor"/>
@@ -70,6 +80,7 @@
                             <constraint firstItem="TDl-xu-EVH" firstAttribute="top" secondItem="oQ4-uk-9zL" secondAttribute="bottom" constant="20" id="4HW-Cs-Od9"/>
                             <constraint firstItem="Gue-bd-1u2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6NK-LS-nYs"/>
                             <constraint firstItem="Gue-bd-1u2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="OS5-B0-G5R"/>
+                            <constraint firstItem="LCc-Po-IGS" firstAttribute="top" secondItem="PFz-eF-h9L" secondAttribute="bottom" constant="20" id="UQv-u0-JmS"/>
                             <constraint firstItem="5Dk-Nt-HOj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="X42-rc-jpt"/>
                             <constraint firstItem="oQ4-uk-9zL" firstAttribute="top" secondItem="5Dk-Nt-HOj" secondAttribute="bottom" constant="20" id="bsm-gw-9nC"/>
                             <constraint firstItem="oQ4-uk-9zL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="guC-UA-iE0"/>
@@ -78,6 +89,7 @@
                             <constraint firstItem="PFz-eF-h9L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rSv-De-Hd3"/>
                             <constraint firstItem="TDl-xu-EVH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sJI-HV-186"/>
                             <constraint firstItem="PFz-eF-h9L" firstAttribute="top" secondItem="TDl-xu-EVH" secondAttribute="bottom" constant="20" id="tbT-de-qw0"/>
+                            <constraint firstItem="LCc-Po-IGS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zAZ-kO-xmn"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
