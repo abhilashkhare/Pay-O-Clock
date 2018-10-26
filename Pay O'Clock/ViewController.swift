@@ -21,7 +21,12 @@ class ViewController: UIViewController,UITextFieldDelegate {
         textField.resignFirstResponder()
         return true
     }
-
+    //
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        let maxLength = 4
+        let currentString = self.lastFourDigits.text! as NSString
+        return currentString.length < maxLength
+    }
 
 }
 
