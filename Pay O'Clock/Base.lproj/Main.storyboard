@@ -73,6 +73,15 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G7N-4H-Wg5">
+                                <rect key="frame" x="112.5" y="314.5" width="150" height="40"/>
+                                <color key="backgroundColor" red="0.076685495670000006" green="0.47192865610000001" blue="0.96561425919999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="VHI-gW-CB6"/>
+                                    <constraint firstAttribute="height" constant="40" id="qWv-9F-S6t"/>
+                                </constraints>
+                                <state key="normal" title="Add"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" cocoaTouchSystemColor="lightTextColor"/>
@@ -83,8 +92,10 @@
                             <constraint firstItem="LCc-Po-IGS" firstAttribute="top" secondItem="PFz-eF-h9L" secondAttribute="bottom" constant="20" id="UQv-u0-JmS"/>
                             <constraint firstItem="5Dk-Nt-HOj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="X42-rc-jpt"/>
                             <constraint firstItem="oQ4-uk-9zL" firstAttribute="top" secondItem="5Dk-Nt-HOj" secondAttribute="bottom" constant="20" id="bsm-gw-9nC"/>
+                            <constraint firstItem="G7N-4H-Wg5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dKi-eZ-xV6"/>
                             <constraint firstItem="oQ4-uk-9zL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="guC-UA-iE0"/>
                             <constraint firstItem="oQ4-uk-9zL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nXO-8K-Heu"/>
+                            <constraint firstItem="G7N-4H-Wg5" firstAttribute="top" secondItem="LCc-Po-IGS" secondAttribute="bottom" constant="45" id="o7m-6M-dCc"/>
                             <constraint firstItem="5Dk-Nt-HOj" firstAttribute="top" secondItem="Gue-bd-1u2" secondAttribute="bottom" constant="15" id="oHC-Sw-VXY"/>
                             <constraint firstItem="PFz-eF-h9L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rSv-De-Hd3"/>
                             <constraint firstItem="TDl-xu-EVH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sJI-HV-186"/>
