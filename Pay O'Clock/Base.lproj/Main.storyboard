@@ -106,6 +106,7 @@
                     </view>
                     <connections>
                         <outlet property="lastFourDigits" destination="5Dk-Nt-HOj" id="9vy-Br-BaB"/>
+                        <outletCollection property="dateField" destination="TDl-xu-EVH" collectionClass="NSMutableArray" id="GJ5-Ld-eaz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -12,11 +12,12 @@ class ViewController: UIViewController,UITextFieldDelegate {
     
     @IBOutlet var lastFourDigits : UITextField!
 
+    @IBOutlet var dateField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         self.lastFourDigits.delegate = self
     }
-    
+    //code for returning after hitting enter
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         return true
