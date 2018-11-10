@@ -132,7 +132,7 @@
             </objects>
             <point key="canvasLocation" x="-750" y="171"/>
         </scene>
-        <!--Saved Card Alarms Table View Controller-->
+        <!--Pay O'Clock-->
         <scene sceneID="O6b-vk-T6p">
             <objects>
                 <viewController storyboardIdentifier="SavedCardAlarmsTableViewController" id="DS7-m4-Ty1" customClass="SavedCardAlarmsTableViewController" sceneMemberID="viewController">
@@ -167,7 +167,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Uud-cA-rRY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="hOl-Jj-DC6"/>
+                    <navigationItem key="navigationItem" title="Pay O'Clock" id="hOl-Jj-DC6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FHj-79-OW1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
