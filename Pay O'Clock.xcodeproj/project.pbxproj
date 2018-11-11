@@ -12,6 +12,7 @@
 		3406EF0B217B17920037EE2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3406EF09217B17920037EE2C /* Main.storyboard */; };
 		3406EF0D217B17940037EE2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3406EF0C217B17940037EE2C /* Assets.xcassets */; };
 		3406EF10217B17940037EE2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3406EF0E217B17940037EE2C /* LaunchScreen.storyboard */; };
+		3442251B2197EEFD005589A2 /* savedAlarmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3442251A2197EEFD005589A2 /* savedAlarmCell.swift */; };
 		34E5CDDF218C3E0B0002D020 /* SavedCardAlarmsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E5CDDE218C3E0B0002D020 /* SavedCardAlarmsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		3406EF0C217B17940037EE2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3406EF0F217B17940037EE2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3406EF11217B17940037EE2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3442251A2197EEFD005589A2 /* savedAlarmCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = savedAlarmCell.swift; sourceTree = "<group>"; };
 		34E5CDDE218C3E0B0002D020 /* SavedCardAlarmsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedCardAlarmsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,6 +65,7 @@
 				3406EF0C217B17940037EE2C /* Assets.xcassets */,
 				3406EF0E217B17940037EE2C /* LaunchScreen.storyboard */,
 				3406EF11217B17940037EE2C /* Info.plist */,
+				3442251A2197EEFD005589A2 /* savedAlarmCell.swift */,
 			);
 			path = "Pay O'Clock";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				3406EF08217B17920037EE2C /* ViewController.swift in Sources */,
 				34E5CDDF218C3E0B0002D020 /* SavedCardAlarmsTableViewController.swift in Sources */,
 				3406EF06217B17920037EE2C /* AppDelegate.swift in Sources */,
+				3442251B2197EEFD005589A2 /* savedAlarmCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

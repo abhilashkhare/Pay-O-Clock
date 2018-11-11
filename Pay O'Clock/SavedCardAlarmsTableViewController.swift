@@ -20,6 +20,10 @@ class SavedCardAlarmsTableViewControllerc: UIViewController,UITableViewDelegate,
         return tableViewCell
     }
     
+    override func viewDidLoad() {
+        
+    }
+    
     
     
 }

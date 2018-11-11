@@ -135,7 +135,7 @@
         <!--Pay O'Clock-->
         <scene sceneID="O6b-vk-T6p">
             <objects>
-                <viewController storyboardIdentifier="SavedCardAlarmsTableViewController" id="DS7-m4-Ty1" customClass="SavedCardAlarmsTableViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SavedCardAlarmsTableViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="DS7-m4-Ty1" customClass="SavedCardAlarmsTableViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ooE-Ww-M1M">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
