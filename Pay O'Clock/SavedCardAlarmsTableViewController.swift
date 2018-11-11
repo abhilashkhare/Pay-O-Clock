@@ -7,7 +7,19 @@
 //
 
 import Foundation
-
-class SavedCardAlarmsTableViewController{
+import UIKit
+class SavedCardAlarmsTableViewControllerc: UIViewController,UITableViewDelegate,UITableViewDataSource{
+    let tableViewCell : UITableViewCell
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+     
+        return tableViewCell
+    }
+    
+    
     
 }
