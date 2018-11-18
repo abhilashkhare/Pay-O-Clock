@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController,UITextFieldDelegate {
+class AddAlarmViewController: UIViewController,UITextFieldDelegate {
     
     @IBOutlet var lastFourDigits : UITextField!
 
